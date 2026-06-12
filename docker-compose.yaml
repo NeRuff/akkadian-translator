@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  translator:
+    build: .
+    volumes:
+      - ./models:/app/models
+      - ./logs:/app/logs
+      - ./data:/app/data
+    command: python model.py predict "šarrum ana ālim illik"

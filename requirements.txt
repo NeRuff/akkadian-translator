@@ -1,0 +1,11 @@
+torch
+transformers
+datasets
+accelerate
+evaluate
+sacrebleu
+loguru
+typer
+pandas
+fastapi
+uvicorn
